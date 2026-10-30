@@ -1,0 +1,12 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Kotlin Ktor backend",
+			"type": "shell",
+			"command": "Set-Location backend; .\\gradlew.bat run",
+			"isBackground": true,
+			"problemMatcher": []
+		}
+	]
+}
